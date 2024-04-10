@@ -18,7 +18,7 @@ function classNames(...classes: string[]) {
 
 export default function Navbar({ user }: { user: any }) {
   const pathname = usePathname();
-
+  const unusedPathnameVar = pathname;
   return (
     <Disclosure as="nav" className="bg-white shadow-sm">
       {({ open }) => (
